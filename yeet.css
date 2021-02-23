@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	/*rgb values must be between 0 and 255*/
+	font-family: all;
+	/*write your comment here*/
+	text-align: center;
+}
+h1{
+	font-size: 70px;
+}
+
+p{
+	font-size: 25px;
+}
+
+a{
+	font-size: 25px;
+}
+#my_image{
+	width: 450px;
+	height: 250px;
+	border: 5px rgb(85,15,92) solid;
+	border-radius: 50px;
+}
+#yoo{
+	width: 250px;
+	height: 300px;
+	border: 5px rgb(85,15,92) solid;
+	border-radius: 50px;
+}
+#Header{
+	background-image:url("https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"); 
+	background-size: cover;
+
+	border: 5px rgb(85,15,92) solid;
+	padding: 20px 30px 40px 50px;
+	/*padding 20px, 30px, 40px, 50px: top right bottom left*/
+	margin: 0px 0px 50px 0px;
+
+}
+.detail_section{
+	background-image: url("https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"); 
+	background-size: cover;
+
+	border: 5px rgb(85,15,92) solid;
+	padding: 10px
+	margin: 25px auto 25px auto;
+	/*top right bottom left*/
+}
+#footer{
+	background-color: rgb(165,128,182);
+
+}
